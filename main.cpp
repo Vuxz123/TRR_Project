@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+const string CREATOR = "Dajunctic Vu";
+
 #define int long long
 #define double long double
 #define fill(list) memset(list, 0, sizeof(list))
@@ -260,7 +262,7 @@ signed main(){
 	if(x.sign == 1) cout << "-";
 	cout << x.number;
 
-	cout << endl << endl << "Code by handsome Dajunctic Vu" << endl;
+	cout << endl << endl << "Code by handsome " << CREATOR << endl;
 
   	return 0;
 } 
